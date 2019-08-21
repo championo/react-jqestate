@@ -1,0 +1,9 @@
+{
+  "name": "react-jqestate",
+  "version": "1.0.0",
+  "description": "React-app for displaying estate list from jqestate.ru",
+  "main": "index.js",
+  "repository": "https://github.com/championo/react-jqestate",
+  "author": "konstantin b.",
+  "license": "MIT"
+}
