@@ -1,0 +1,18 @@
+# Dependencies
+/node_modules
+
+# Dist
+/dist
+/build
+
+# Yarn
+yarn.lock
+
+# npm
+package-lock.json
+
+# Jest
+/coverage
+
+# IDE
+.vscode
