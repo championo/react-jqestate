@@ -2,7 +2,7 @@
 
 [На русском](README.ru.md)
 
-**JQ Estate** is application for displaing estate list from jqestate.ru.
+**JQ Estate** is application for displaing estate list from [jqestate.ru](http://jqestate.ru/).
 
 ## Live demo
 None.

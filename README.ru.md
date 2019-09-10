@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-**JQ Estate** - приложение для отображения списка недвижимости с сайта jqestate.ru.
+**JQ Estate** - приложение для отображения списка недвижимости с сайта [jqestate.ru](http://jqestate.ru/).
 
 ## Демо
 Нет.
