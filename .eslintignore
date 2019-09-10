@@ -1,0 +1,6 @@
+# Dist
+/dist
+/build
+
+# Jest
+/coverage
