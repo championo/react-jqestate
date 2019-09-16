@@ -1,0 +1,21 @@
+.page-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 0;
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+
+  @include respond-to('xs') {
+    margin-bottom: 1rem;
+  }
+
+  @include respond-to('m') {
+    margin-bottom: 1.5rem;
+  }
+
+  @include respond-to('xl') {
+    margin-bottom: 2rem;
+  }
+}
