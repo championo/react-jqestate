@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+
+  @include respond-to('s') {
+    max-width: 540px;
+  }
+
+  @include respond-to('m') {
+    max-width: 720px;
+  }
+
+  @include respond-to('l') {
+    max-width: 960px;
+  }
+
+  @include respond-to('xl') {
+    max-width: 1140px;
+  }
+}

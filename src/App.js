@@ -2,15 +2,22 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import './style.scss';
+import Footer from 'components/layout/Footer';
 
 const reactMessage = 'Hello React!';
 
 const App = ({ storeMessage }) => (
-  <div style={{ border: '1px solid red' }}>
-    <p className="hello">{reactMessage}</p>
-    {storeMessage ? <p className="hello">{storeMessage}</p> : null}
-  </div>
+  <>
+    <main className="page-content">
+      <div className="container">
+        <p className="hello">{reactMessage}</p>
+        {storeMessage ? <p className="hello">{storeMessage}</p> : null}
+      </div>
+    </main>
+    <Footer>
+      <div className="footer__text">JQ Estate @ 2019</div>
+    </Footer>
+  </>
 );
 
 const mapStateToProps = state => {

@@ -1,0 +1,46 @@
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+}
+
+.nav-item {
+  &__link {
+    cursor: pointer;
+    color: #666;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+
+    &:hover {
+      color: #202020;
+    }
+
+    &_active {
+      color: #ff4c4e;
+    }
+
+    &_active:hover {
+      color: #ff4c4e;
+    }
+
+    &_disabled {
+      cursor: default;
+      pointer-events: none;
+      color: #c5c5c5;
+    }
+
+    &_disabled:hover {
+      color: #c5c5c5;
+    }
+  }
+}

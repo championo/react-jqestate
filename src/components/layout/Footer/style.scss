@@ -1,0 +1,21 @@
+.page-footer {
+  padding: 1rem 0;
+  background-color: #fff;
+  border-top: 1px solid #e8e8e8;
+
+  @include respond-to('xs') {
+    margin-top: 1rem;
+  }
+
+  @include respond-to('m') {
+    margin-top: 1.5rem;
+  }
+
+  @include respond-to('xl') {
+    margin-top: 2rem;
+  }
+}
+
+.footer__text {
+  text-align: center;
+}
