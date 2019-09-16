@@ -1,0 +1,17 @@
+$breakpoints: (
+  'xs': (
+    min-width: 320px,
+  ),
+  's': (
+    min-width: 576px,
+  ),
+  'm': (
+    min-width: 768px,
+  ),
+  'l': (
+    min-width: 992px,
+  ),
+  'xl': (
+    min-width: 1200px,
+  ),
+) !default;
