@@ -32,8 +32,18 @@ module.exports = {
               },
             },
           },
-          'sass-loader',
+          {
+            loader: 'sass-loader',
+            options: {
+              data: '@import "main.scss";',
+              includePaths: ['./src/scss'],
+            },
+          },
         ],
+      },
+      {
+        test: /\.svg$/i,
+        loader: '@svgr/webpack',
       },
     ],
   },
@@ -57,4 +67,10 @@ module.exports = {
       favicon: 'favicon.png',
     }),
   ],
+  resolve: {
+    mainFiles: ['index'],
+    alias: {
+      components: path.resolve(__dirname, 'src/components'),
+    },
+  },
 };
