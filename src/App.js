@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
 import Footer from 'components/layout/Footer';
-import './style.scss';
 
 const reactMessage = 'Hello React!';
 
